@@ -1,11 +1,11 @@
-
+import React from 'react';
+// Pages
+import AboutMe from './Pages/AboutMe';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Initial Setup</h1>
-    </div>
-  );
+      <AboutMe />
+  )
 }
 
 export default App;
