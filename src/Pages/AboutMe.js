@@ -1,9 +1,15 @@
 import React from 'react';
 import AboutMeSection from '../Components/AboutMeSection';
+import MySkillsSection from '../Components/MySkillsSection';
+
+
 
 const AboutMe = () => {
     return(
-        <AboutMeSection />
+        <div>
+            <AboutMeSection />
+            <MySkillsSection />
+        </div>
     )
 }
 
