@@ -4,7 +4,7 @@ import styledComponents from 'styled-components';
 //General Style
 import {StyledDescription} from './BaseStyle';
 
-export const StyleSkills = styledComponents(StyledDescription)`
+export const StyledSkills = styledComponents(StyledDescription)`
     h2{
         padding:5rem 10rem;
         color:white;
