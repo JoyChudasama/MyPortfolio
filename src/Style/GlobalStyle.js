@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
 
     body{
         background-color: #1b1b1b;
-    }
+        font-family: 'Work Sans', sans-serif;
 
     button{
         font-weight: bold;
@@ -28,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
 
     h2{
         font-weight:lighter;
-        font-size: 4rem;
+        font-size: 3.8rem;
     }
 
     h3{
@@ -40,7 +40,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     span{
-        font-weight:bold;
+        font-weight:500;
         color: #23d997;
     }
 
