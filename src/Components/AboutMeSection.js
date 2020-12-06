@@ -2,10 +2,10 @@ import React from 'react';
 import home1 from '../Images/home1.png';
 
 // Style
-import {StyleButton} from '../Style/AboutMeSectionStyle';
+import {StyleButton, StyleddImage} from '../Style/AboutMeSectionStyle';
 
 //General Style
-import {StyledAbout, StyledDescription, StyledImage} from '../Style/BaseStyle';
+import {StyledAbout, StyledDescription} from '../Style/BaseStyle';
 
 const AboutMeSection = () => {
     return(
@@ -25,9 +25,9 @@ const AboutMeSection = () => {
                 <p> And I Draw Websites On The Back Of Flask & Node Using CSS & JavaScript Frameworks </p>
                 <StyleButton> Contact Me</StyleButton>
             </StyledDescription>
-            <StyledImage>
+            <StyleddImage>
                 <img src={home1} alt="CameraMan" />
-            </StyledImage>
+            </StyleddImage>
         </StyledAbout>
     )
 }
