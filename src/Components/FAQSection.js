@@ -30,7 +30,7 @@ const FAQSection = () => {
             <div className="question">
                 <h4>What is Joy Learning Right Now?</h4>
                 <div className="answer">
-                    <p>Currently, Joy is focusing on some his Projects but once they are done he'll back to learning Neaural Networks or
+                    <p>Currently, Joy is focusing on some of his Projects but once they are done he'll back to learning Neaural Networks or
                         Some New JS Frameworks.</p>
                 </div>
                 <div className="faq-line"></div>
