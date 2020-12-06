@@ -24,7 +24,7 @@ export const StyledImage = styledComponents.div`
 
     img{
         width:90%;
-        height: 85vh;
+        height: 80vh;
         object-fit:cover;
         margin-left: 2rem;
         border-radius:50px;

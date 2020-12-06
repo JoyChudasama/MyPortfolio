@@ -1,5 +1,5 @@
 // General Styled 
-import {StyledButton} from '../Style/BaseStyle';
+import {StyledButton, StyledImage} from '../Style/BaseStyle';
 
 // Styled Components
 import styledComponents from 'styled-components';
@@ -62,4 +62,8 @@ export const StyleButton = styledComponents(StyledButton)`
         border-bottom: 2px solid #23d997;
         transition: all 0.3s  ease-out;
     }
+`
+export const StyleddImage = styledComponents(StyledImage)`
+    margin-top:-1.5rem;
+
 `
