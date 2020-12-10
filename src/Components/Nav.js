@@ -9,13 +9,13 @@ const Nav = () =>{
             <h1><Link id="logo" to="/">Joy Chudasama</Link></h1>
             <ul>
                 <li>
-                    <Link to="/">1. AboutMe</Link>
+                    <Link to="/">About Me</Link>
                 </li>
                 <li>
-                    <Link to="/my-projects">2. MyProjects</Link>
+                    <Link to="/my-projects">My Projects</Link>
                 </li>
                 <li>
-                    <Link to="/contact-joy">3. ContactMe</Link>
+                    <Link to="/contact-joy">Contact Me</Link>
                 </li>
             </ul>
         </StyledNav>

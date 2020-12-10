@@ -20,7 +20,7 @@ const MySkillsSection = () =>{
 
     return(
         <StyledSkills>
-            <h2>My <span>Skills</span></h2>
+            <h2>Some Of My <span>Skills</span></h2>
             <StyledCards>
                 <StyledCard>
                     <div className="icon">
