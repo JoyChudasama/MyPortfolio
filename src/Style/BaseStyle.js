@@ -12,7 +12,7 @@ export const StyledAbout = styledComponents.div`
 
 export const StyledDescription = styledComponents.div`
     flex: 1;
-    padding-right: 5rem;
+    
 
     h2{
         font-weight: lighter;
