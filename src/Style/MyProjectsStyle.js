@@ -1,6 +1,8 @@
 import styledComponents from 'styled-components';
+// Animations
+import {motion} from 'framer-motion';
 
-export const StyledWork = styledComponents.div`
+export const StyledWork = styledComponents(motion.div)`
     min-height:100vh;
     overflow:hidden;
     padding: 5rem 10rem;

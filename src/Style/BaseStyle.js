@@ -1,5 +1,6 @@
 import styledComponents from 'styled-components';
-
+// Animations
+import {motion} from 'framer-motion';
 
 export const StyledAbout = styledComponents.div`
     min-height : 90vh;
@@ -19,7 +20,7 @@ export const StyledDescription = styledComponents.div`
     }
 `
 
-export const StyledImage = styledComponents.div`
+export const StyledImage = styledComponents(motion.div)`
     flex:0.9;
 
     img{
@@ -30,7 +31,7 @@ export const StyledImage = styledComponents.div`
         border-radius:50px;
     }
 `
-export const StyledButton = styledComponents.button`
+export const StyledButton = styledComponents(motion.button)`
     font-weight: bold;
     font-size: 1.1rem;
     cursor: pointer;

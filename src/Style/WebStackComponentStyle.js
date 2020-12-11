@@ -4,8 +4,8 @@ export const StyledWebstackComponent = styledComponents.div`
     padding:0 3rem;
     h3{
         font-size: 9rem;
-        color:#313347;
-        opacity: 60%;
+        color:#6C757D;
+        opacity: 50%;
     }
 
     .lists{

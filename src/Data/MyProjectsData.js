@@ -24,7 +24,6 @@ const MyProjectsData0 = () =>{
         {
             title: 'Help Students',
             mainImg: tempImg1,
-            secondaryImg : tempImg1,
             url: '/my-projects/help-students',
             webstack : [
                 {
@@ -41,7 +40,6 @@ const MyProjectsData0 = () =>{
         {
             title: 'Tech Forum',
             mainImg: tempImg2,
-            secondaryImg : tempImg2,
             url: '/my-projects/tech-forum',
             webstack : [
                 {
@@ -58,7 +56,6 @@ const MyProjectsData0 = () =>{
         {
             title: 'Virtual Assistant',
             mainImg: tempImg3,
-            secondaryImg : tempImg3,
             url: '/my-projects/virtual-assistant',
             webstack : [
                 {
@@ -71,7 +68,6 @@ const MyProjectsData0 = () =>{
         {
             title: 'AceCoding.io',
             mainImg: tempImg4,
-            secondaryImg : tempImg4,
             url: '/my-projects/ace-coding-io',
             webstack : [
                 {

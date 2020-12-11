@@ -1,25 +1,28 @@
 import React from 'react';
-import {Switch, Route} from 'react-router-dom';
-
+// Router
+import {Switch, Route, useLocation} from 'react-router-dom';
 // Pages 
 import AboutMe from './Pages/AboutMe';
 import ContactMe from './Pages/ContactMe';
 import MyProjects from './Pages/MyProjects';
 import MyProjectsDetails from './Pages/MyProjectsDetails';
-
 // Components
 import Nav from '../src/Components/Nav';
-
 // GlobalStyle
 import GlobalStyle from './Style/GlobalStyle';
-
+// Animation
+import {AnimatePresence} from 'framer-motion';
 
 function App() {
+  
+  const location = useLocation();
+  
   return (
     <div className="App">
       <GlobalStyle />
       <Nav />
-      <Switch>
+      <AnimatePresence exitBeforeEnter>
+      <Switch location={location} key={location.key}>
         <Route exact path="/">
           <AboutMe />
         </Route>
@@ -33,6 +36,7 @@ function App() {
           <ContactMe />
         </Route>
       </Switch>
+      </AnimatePresence>
     </div>
   )
 }
