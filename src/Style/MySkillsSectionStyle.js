@@ -1,8 +1,9 @@
 // Styled Components
 import styledComponents from 'styled-components';
-
 //General Style
 import {StyledDescription} from './BaseStyle';
+// Framer Motion
+import {motion} from 'framer-motion';
 
 export const StyledSkills = styledComponents(StyledDescription)`
     h2{
@@ -22,7 +23,7 @@ export const StyledCards =styledComponents.div`
     padding:2rem;
 `
 
-export const StyledCard = styledComponents.div`
+export const StyledCard = styledComponents(motion.div)`
     min-width:25%;
     height:300px;
     transform-style: preserve-3d;

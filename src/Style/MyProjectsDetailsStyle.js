@@ -49,7 +49,7 @@ export const StyledProjectHeadline = styledComponents.div`
 export const StyledWebstack = styledComponents.div`
     min-height: 90vh;
     display: flex;
-    margin: 5rem 10rem;
+    margin-top: 5rem;
     align-items: start;
     justify-content: space-evenly;
 `
