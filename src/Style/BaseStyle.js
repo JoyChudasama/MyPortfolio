@@ -13,7 +13,7 @@ export const StyledAbout = styledComponents.div`
 
 export const StyledDescription = styledComponents.div`
     flex: 1;
-    
+    z-index: 2;
 
     h2{
         font-weight: lighter;
@@ -22,7 +22,7 @@ export const StyledDescription = styledComponents.div`
 
 export const StyledImage = styledComponents(motion.div)`
     flex:0.9;
-
+    z-index: 2;
     img{
         width:90%;
         height: 80vh;

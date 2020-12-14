@@ -3,10 +3,12 @@ import {Link} from 'react-router-dom';
 // Style
 import {StyledNav} from '../Style/NavStyle';
 
+
 const Nav = () =>{
+
     return(
         <StyledNav>
-            <h1><Link id="logo" to="/">Joy Chudasama</Link></h1>
+            <h1 ><Link id="logo" to="/">Joy Chudasama</Link></h1>
             <ul>
                 <li>
                     <Link to="/">About Me</Link>

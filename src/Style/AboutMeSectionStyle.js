@@ -65,7 +65,7 @@ export const StyleButton = styledComponents(StyledButton)`
 `
 export const StyleddImage = styledComponents(StyledImage)`
     margin-top:-1.5rem;
-
+    
 `
 
 export const StyledHide = styledComponents.div`
