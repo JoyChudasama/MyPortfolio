@@ -3,6 +3,7 @@ import styledComponents from 'styled-components';
 import {motion} from 'framer-motion';
 
 export const StyledWork = styledComponents(motion.div)`
+    background-color: #fff;
     min-height:100vh;
     overflow:hidden;
     padding: 5rem 10rem;
@@ -18,7 +19,7 @@ export const StyledProjects = styledComponents.div`
 
     .line{
         height: 0.5rem;
-        background: #cccccc;
+        background: #23dd97;
         margin-bottom: 3rem;
     }
 
@@ -27,4 +28,28 @@ export const StyledProjects = styledComponents.div`
         height: 75vh;
         object-fit: cover;
     }
+`
+
+export const StyledHide = styledComponents.div`
+    overflow: hidden;
+`
+
+export const StyledFrame1 = styledComponents(motion.div)`
+    position: fixed;
+    left: 0;
+    top: 10%;
+    width: 100%;
+    height: 100vh;
+    background: #fffebf;
+    z-index: 2;
+`
+
+export const StyledFrame2 = styledComponents(StyledFrame1)`
+    background: #ff8ebf;
+`
+export const StyledFrame3 = styledComponents(StyledFrame1)`
+    background: #8ed2ff;
+`
+export const StyledFrame4 = styledComponents(StyledFrame1)`
+    background: #8effa0;
 `
