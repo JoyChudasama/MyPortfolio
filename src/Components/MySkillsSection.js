@@ -13,13 +13,17 @@ import reactIcon from '../Icons/React.svg';
 import {StyledSkills, StyledCards, StyledCard} from '../Style/MySkillsSectionStyle';
 // Framer Motion
 import {motion} from 'framer-motion';
+//Animatino
+import {textFadeAnimation} from '../Animations/ChildElementsAnimation';
+// Scroll Animation
+import {useScroll} from '../ReusableComponents/useScroll';
 
 const MySkillsSection = () =>{
 
     const size='100px';
-
+    const [elements, controls] = useScroll();
     return(
-        <StyledSkills>
+        <StyledSkills variants={textFadeAnimation} ref={elements} animate={controls} initial='hidden'>
             <h2>Some Of My <span>Skills</span></h2>
             <StyledCards>
                 <StyledCard whileHover={{ scale: 1.1 }} >

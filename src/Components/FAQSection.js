@@ -6,13 +6,16 @@ import Toggle from '../ReusableComponents/Toggle'
 // Framer Motion, AnimateSharedLayout
 import {motion} from 'framer-motion';
 import {AnimateSharedLayout} from 'framer-motion';
-import {textFadeAnimation} from '../Animations/ChildElementsAnimation';
+// Animation
+import {textFadeAnimation, scrollReveal} from '../Animations/ChildElementsAnimation';
+// Scroll Animation
+import {useScroll} from '../ReusableComponents/useScroll';
 
 const FAQSection = () => {
     
-
+    const [elements, controls] = useScroll();
     return(
-        <StyledFAQ>
+        <StyledFAQ variants={scrollReveal} ref={elements} animate={controls} initial='hidden'>
             <h2>Any Question? <span>FAQ</span></h2>
             <AnimateSharedLayout>
                 <Toggle question="What and Where Joy Studied?">
