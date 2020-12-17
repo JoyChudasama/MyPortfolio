@@ -35,7 +35,7 @@ const MyProjectsData0 = () =>{
                     lists: ['Flask', 'SqlAlchemy']
                 }
             ],
-            description : "This project was for a Hackathon in November 2020. The topic was to make something related to Students; so I made this where Students can upload their study related problems without revealing their identity." 
+            description : "This project was for a Hackathon in November 2020. The topic was to make something that can help Students in any way; so I made this FullStack Web App where Students can upload their study related problems without revealing their identity." 
         },
         {
             title: 'Tech Forum',
@@ -63,7 +63,7 @@ const MyProjectsData0 = () =>{
                     lists : ['Google Search', 'Wikipedia', 'pyttsx3', 'speech_recognition','webbrowser']
                 }
             ],
-            description: "So it's an Automation project inspired from many Youtubers. This project has only 1 Python script. It runs totally on commands and can do bunch of things lie taking notes, playing music, search web etc "
+            description: "So it's an Automation project inspired from many Youtubers. This project has only 1 Python script. It runs totally on Voice Commands and can do bunch of things like taking notes, playing music, search web etc "
         },
         {
             title: 'AceCoding.io',
