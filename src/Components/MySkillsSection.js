@@ -1,5 +1,4 @@
 import React from 'react';
-
 // Icons
 import sassIcon from '../Icons/Sass.svg';
 import figmaIcon from '../Icons/Figma.svg';
@@ -10,9 +9,10 @@ import flaskIcon from '../Icons/Flask.svg';
 import nodeIcon from '../Icons/Node.svg';
 import pythonIcon from '../Icons/Python.svg';
 import reactIcon from '../Icons/React.svg';
-
 // Style
 import {StyledSkills, StyledCards, StyledCard} from '../Style/MySkillsSectionStyle';
+// Framer Motion
+import {motion} from 'framer-motion';
 
 const MySkillsSection = () =>{
 
@@ -22,63 +22,63 @@ const MySkillsSection = () =>{
         <StyledSkills>
             <h2>Some Of My <span>Skills</span></h2>
             <StyledCards>
-                <StyledCard>
-                    <div className="icon">
+                <StyledCard whileHover={{ scale: 1.1 }} >
+                    <motion.div className="icon">
                         <img src={figmaIcon} alt="FigmaIcon" width={size} height={size}/>
                         <h3>Figma</h3>
-                    </div>
+                    </motion.div>
                     <p>For UI/UX Design</p>
                 </StyledCard>
-                <StyledCard>
+                <StyledCard whileHover={{ scale: 1.1 }}>
                     <div className="icon">
                         <img src={sassIcon} alt="SASSIcon" width={size} height={size} />
                         <h3>Sass</h3>
                     </div>
                     <p>To Make CSS Easier</p>
                 </StyledCard>
-                <StyledCard>
+                <StyledCard whileHover={{ scale: 1.1 }}>
                     <div className="icon">
                         <img src={bootstrapIcon} alt="BootstrapIcon" width={size} height={size} />
                         <h3>Bootstrap</h3>
                     </div>
                     <p>When I am Lazy to write some HTML/CSS</p>
                 </StyledCard>
-                <StyledCard>
+                <StyledCard whileHover={{ scale: 1.1 }}>
                     <div className="icon">
                         <img src={materialIcon} alt="MaterialIcon" width={size} height={size} />
                         <h3>Material UI</h3>
                     </div>
                     <p>Same as Bootstrap but when I need better color combination</p>
                 </StyledCard>
-                <StyledCard>
+                <StyledCard whileHover={{ scale: 1.1 }}>
                     <div className="icon">
                         <img src={es6Icon} alt="ES6Icon" width={size} height={size} />
                         <h3>ES6</h3>
                     </div>
                     <p>To make my work easy with cool features of ES6</p>
                 </StyledCard>
-                <StyledCard>
+                <StyledCard whileHover={{ scale: 1.1 }}>
                     <div className="icon">
                         <img src={reactIcon} alt="ReactIcon" width={size} height={size} />
                         <h3>React</h3>
                     </div>
                     <p>To get better control on FrontEnd</p>
                 </StyledCard>
-                <StyledCard>
+                <StyledCard whileHover={{ scale: 1.1 }}>
                     <div className="icon">
                         <img src={nodeIcon} alt="NodeIcon" width={size} height={size} />
                         <h3>Node</h3>
                     </div>
                     <p>Backend to my FrontEnd</p>
                 </StyledCard>
-                <StyledCard>
+                <StyledCard whileHover={{ scale: 1.1 }}>
                     <div className="icon">
                         <img src={flaskIcon} alt="FlaskIcon" width={size} height={size} />
                         <h3>Flask</h3>
                     </div>
                     <p>When I am focusing totally on BackEnd</p>
                 </StyledCard>
-                <StyledCard>
+                <StyledCard whileHover={{ scale: 1.1 }}>
                     <div className="icon">
                         <img src={pythonIcon} alt="PythonIcon" width={size} height={size} />
                         <h3>Python</h3>
