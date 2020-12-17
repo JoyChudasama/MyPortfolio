@@ -3,10 +3,10 @@ import {Link} from 'react-router-dom';
 // Style
 import {StyledWork,StyledProjects,StyledHide, StyledFrame1, StyledFrame2, StyledFrame3, StyledFrame4} from '../Style/MyProjectsStyle';
 // Images
-import tempImg1 from '../Images/Temp1.PNG';
-import tempImg2 from '../Images/Temp2.PNG';
-import tempImg3 from '../Images/Temp3.PNG';
-import tempImg4 from '../Images/Temp4.PNG';
+import tempImg1 from '../Images/HelpStudents.png';
+import tempImg2 from '../Images/TechForum.png';
+import tempImg3 from '../Images/VirtualAssistant.PNG';
+import tempImg4 from '../Images/AceCoding.png';
 //Animation
 import {motion} from 'framer-motion';
 import {pageAnimation} from '../Animations/PageAnimation';
