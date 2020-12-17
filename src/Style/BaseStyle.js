@@ -2,7 +2,7 @@ import styledComponents from 'styled-components';
 // Animations
 import {motion} from 'framer-motion';
 
-export const StyledAbout = styledComponents.div`
+export const StyledAbout = styledComponents(motion.div)`
     min-height : 90vh;
     display: flex;
     align-items: center;
@@ -11,7 +11,7 @@ export const StyledAbout = styledComponents.div`
     color: white;
 `
 
-export const StyledDescription = styledComponents.div`
+export const StyledDescription = styledComponents(motion.div)`
     flex: 1;
     z-index: 2;
 
