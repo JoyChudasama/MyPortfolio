@@ -41,7 +41,7 @@ export const overlaySliderAnimation = {
 }
 
 
-export const scrollReveal = {
+export const scrollRevealAnimation = {
     hidden: {
         opacity:0, 
         scale: 1.2, 
@@ -51,5 +51,18 @@ export const scrollReveal = {
         opacity:1,
         scale:1,
         transition:{duration:0.5}
+    }
+}
+
+export const zeroToFullWidthAnimation = {
+    hidden:{
+        opacity:0,
+        width:'150%',
+        transition: {duration:1}
+    },
+    show:{
+        opacity:1,
+        width:'100%',
+        transition: {duration:1}
     }
 }
