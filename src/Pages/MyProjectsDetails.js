@@ -10,6 +10,8 @@ import ProjectsWebStack from '../Components/ProjectsWebStack';
 // Animations
 import {pageAnimation} from '../Animations/PageAnimation';
 
+
+
 const MyProjectsDetails = () => {
 
     // Getting Current URL From User
@@ -26,6 +28,7 @@ const MyProjectsDetails = () => {
         const currentProject = projects.filter((projectData) => projectData.url === url);
         setProject(currentProject[0])
     }, [projects,url]);
+
 
     return(
         <StyledProjectDetails variants={pageAnimation} initial="hidden" animate="show" exit="exit">
