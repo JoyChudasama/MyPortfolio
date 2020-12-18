@@ -1,5 +1,5 @@
 import styledComponents from 'styled-components';
-// Animations
+// Framer Motion
 import {motion} from 'framer-motion';
 
 export const StyledWork = styledComponents(motion.div)`
@@ -14,7 +14,7 @@ export const StyledWork = styledComponents(motion.div)`
     }
 `
 
-export const StyledProjects = styledComponents.div`
+export const StyledProjects = styledComponents(motion.div)`
     padding-bottom: 10rem;
 
     .line{
@@ -30,7 +30,7 @@ export const StyledProjects = styledComponents.div`
     }
 `
 
-export const StyledHide = styledComponents.div`
+export const StyledHide = styledComponents(motion.div)`
     overflow: hidden;
 `
 
