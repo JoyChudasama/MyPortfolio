@@ -1,8 +1,8 @@
 // Images
-import tempImg1 from '../Images/Temp1.PNG';
-import tempImg2 from '../Images/Temp2.PNG';
-import tempImg3 from '../Images/Temp3.PNG';
-import tempImg4 from '../Images/Temp4.PNG';
+import tempImg1 from '../Images/HelpStudentsTablet.png';
+import tempImg2 from '../Images/TechForumTablet.png';
+import tempImg3 from '../Images/VirtualAssistantPC.png';
+import tempImg4 from '../Images/AceCodingPC.png';
 
 const MyProjectsData0 = () =>{
     return [
