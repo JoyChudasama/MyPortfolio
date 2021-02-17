@@ -7,9 +7,11 @@ import MyProjectsData0 from '../Data/MyProjectsData';
 import {StyledProjectDetails, StyledProjectHeadline, StyledWebstack, StyledDescription} from '../Style/MyProjectsDetailsStyle';
 // Components 
 import ProjectsWebStack from '../Components/ProjectsWebStack';
+// Framer Motion
+import {motion} from 'framer-motion';
 // Animations
 import {pageAnimation} from '../Animations/PageAnimation';
-
+import {textFadeAnimation, spinAnimation} from '../Animations/ChildElementsAnimation';
 
 
 const MyProjectsDetails = () => {
@@ -29,12 +31,11 @@ const MyProjectsDetails = () => {
         setProject(currentProject[0])
     }, [projects,url]);
 
-
+    
     return(
         <StyledProjectDetails variants={pageAnimation} initial="hidden" animate="show" exit="exit">
-            <StyledProjectHeadline>
-                <h2>{project.title}</h2>
-                <> {project.mainImg ? (<div id="img-wrapper"><img src={project.mainImg} alt="MainImg" /></div>) : <h1 id="img-tag"> This Is The Website It Self</h1>} </>
+            <StyledProjectHeadline >
+                <> {project.mainImg ? (<motion.div variants={spinAnimation} id="img-wrapper"><motion.img  src={project.mainImg} alt="MainImg" /></motion.div>) : <motion.h1 id="img-tag"> This Is The Website It Self</motion.h1>} </>
             </StyledProjectHeadline>
             < StyledWebstack>
                 {project.webstack && project.webstack.map((i) => (
@@ -42,8 +43,8 @@ const MyProjectsDetails = () => {
                 ))}
             </StyledWebstack>
             <StyledDescription>
-                <h4>Extras</h4>
-                <p>{project.description}</p>
+                <motion.h4>Extras</motion.h4>
+                <motion.p>{project.description}</motion.p>
             </StyledDescription>
         </StyledProjectDetails>
     )

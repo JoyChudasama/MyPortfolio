@@ -58,11 +58,24 @@ export const zeroToFullWidthAnimation = {
     hidden:{
         opacity:0,
         width:'150%',
-        transition: {duration:1}
+        transition: {duration:0.5}
     },
     show:{
         opacity:1,
         width:'100%',
-        transition: {duration:1}
+        transition: {duration:0.5}
+    }
+}
+
+export const spinAnimation = {
+    hidden:{
+        opacity:0,
+        rotate: -90,
+        
+    },
+    show:{
+        opacity:1,
+        rotate: 0,
+        transition: {duration:0.7}
     }
 }

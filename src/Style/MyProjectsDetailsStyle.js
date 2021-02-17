@@ -7,28 +7,21 @@ export const StyledProjectDetails = styledComponents(motion.div)`
     color:white;
 `
 
-export const StyledProjectHeadline = styledComponents.div`
+export const StyledProjectHeadline = styledComponents(motion.div)`
     min-height: 90vh;
-    padding-top: 30vh;
+    padding-top: 10vh;
     position: relative;
 
-    h2{
-        position:absolute;
-        top:10%;
-        left: 50%;
-        transform: translate(-50%, -10%);
-    }
-
     #img-wrapper{
-        max-width:100vw;
+        width:100%;
         height:100%;
         display:flex;
         align-items: center;
         justify-content: center;
         overflow:hidden;
+
+
         img{
-            width: 100%;
-            object-fit: cover;
             padding:2rem;
         }
     }
@@ -46,14 +39,14 @@ export const StyledProjectHeadline = styledComponents.div`
     }
 `
 
-export const StyledWebstack = styledComponents.div`
+export const StyledWebstack = styledComponents(motion.div)`
     min-height: 90vh;
     display: flex;
     margin-top: 5rem;
     align-items: start;
     justify-content: space-evenly;
 `
-export const StyledDescription = styledComponents.div`
+export const StyledDescription = styledComponents(motion.div)`
     margin: 0 5rem;
     padding: 2rem 0;
     h4{

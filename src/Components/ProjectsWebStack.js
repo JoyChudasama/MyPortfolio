@@ -1,4 +1,5 @@
 import React from 'react';
+// UUID for unique key
 import uuid from 'react-uuid';
 // Style
 import {StyledWebstackComponent} from '../Style/WebStackComponentStyle';
@@ -12,7 +13,6 @@ const ProjectsWebStack = ({title,names}) => {
                 {names.map((i)=>(
                     <ul key={uuid()}><li >{i}</li></ul>
                 ))}
-                
             </div>
         </StyledWebstackComponent>
     )

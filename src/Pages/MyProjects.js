@@ -21,6 +21,7 @@ const MyProjects = () => {
     const [elements, controls] = useScroll();
     const [elements1, controls1] = useScroll();
     const [elements2, controls2] = useScroll();
+    const [elements3, controls3] = useScroll();
 
     return(
         
@@ -39,21 +40,21 @@ const MyProjects = () => {
                     <Link to="/my-projects/help-students"> <motion.img variants={imgAnimation} src={tempImg1} alt="Help Students" /></Link>
                 </StyledHide>
             </StyledProjects>
-            <StyledProjects ref={elements} variants={zeroToFullWidthAnimation} animate={controls} initial="hidden">
+            <StyledProjects ref={elements1} variants={zeroToFullWidthAnimation} animate={controls1} initial="hidden">
                 <motion.h2 variants={textFadeAnimation}>Tech Forum</motion.h2>
                 <motion.div variants={lineAnimation} className="line"></motion.div>
                 <StyledHide>
                     <Link to="/my-projects/tech-forum"><motion.img variants={imgAnimation} src={tempImg2} alt="Tech Forum" /></Link>
                 </StyledHide>
             </StyledProjects>
-            <StyledProjects ref={elements1} variants={zeroToFullWidthAnimation} animate={controls1} initial="hidden">
+            <StyledProjects ref={elements2} variants={zeroToFullWidthAnimation} animate={controls2} initial="hidden">
                 <motion.h2 variants={textFadeAnimation}>Virtual Assistant</motion.h2>
                 <motion.div variants={lineAnimation} className="line"></motion.div>
                 <StyledHide>
                     <Link to="/my-projects/virtual-assistant"><motion.img variants={imgAnimation} src={tempImg3} alt="Virtual Assistant" /></Link>
                 </StyledHide>
             </StyledProjects>
-            <StyledProjects ref={elements2} variants={zeroToFullWidthAnimation} animate={controls2} initial="hidden">
+            <StyledProjects ref={elements3} variants={zeroToFullWidthAnimation} animate={controls3} initial="hidden">
                 <motion.h2 variants={textFadeAnimation}>AceCoding.io</motion.h2>
                 <motion.div variants={lineAnimation} className="line"></motion.div>
                 <StyledHide>
