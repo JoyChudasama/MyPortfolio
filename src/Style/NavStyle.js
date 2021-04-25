@@ -1,4 +1,5 @@
 import styledComponents from 'styled-components';
+import {motion} from 'framer-motion';
 
 export const StyledNav = styledComponents.nav`
     min-height: 10vh;
@@ -8,6 +9,9 @@ export const StyledNav = styledComponents.nav`
     align-items: center;
     padding: 1rem 10rem;
     background-color: #282828;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 
     a{
         text-decoration: none;
@@ -29,4 +33,13 @@ export const StyledNav = styledComponents.nav`
         padding-left: 8rem;
         position: relative;
     }
+`
+
+export const StyledLine = styledComponents(motion.div)`
+    height: 0.3rem;
+    width: 0%;
+    background: #23d997;
+    position: absolute;
+    bottom: -80%;
+    left: 60%;
 `

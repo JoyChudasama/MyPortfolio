@@ -1,6 +1,5 @@
 // Styled Components
 import styledComponents from 'styled-components';
-
 //General Style
 import {StyledAbout} from './BaseStyle';
 

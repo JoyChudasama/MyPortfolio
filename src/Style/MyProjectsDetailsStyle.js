@@ -12,7 +12,7 @@ export const StyledProjectHeadline = styledComponents(motion.div)`
     padding-top: 10vh;
     position: relative;
 
-    #img-wrapper{
+    #imgWrapper{
         width:100%;
         height:100%;
         display:flex;

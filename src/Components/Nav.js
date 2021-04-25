@@ -1,12 +1,12 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 // Style
-import {StyledNav} from '../Style/NavStyle';
+import { StyledNav } from '../Style/NavStyle';
 
 
-const Nav = () =>{
+const Nav = () => {
 
-    return(
+    return (
         <StyledNav>
             <h1 ><Link id="logo" to="/">Joy Chudasama</Link></h1>
             <ul>
@@ -21,7 +21,6 @@ const Nav = () =>{
                 </li>
             </ul>
         </StyledNav>
-    
     )
 }
 

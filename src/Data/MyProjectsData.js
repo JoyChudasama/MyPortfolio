@@ -1,8 +1,8 @@
 // Images
-import tempImg1 from '../Images/HelpStudentsTablet.png';
-import tempImg2 from '../Images/TechForumTablet.png';
-import tempImg3 from '../Images/VirtualAssistantPC.png';
-import tempImg4 from '../Images/AceCodingPC.png';
+import helpStudents from '../Images/HelpStudentsTablet.png';
+import techForum from '../Images/TechForumTablet.png';
+import virtualAssistant from '../Images/VirtualAssistantPC.png';
+import aceCoding from '../Images/AceCodingPC.png';
 
 const MyProjectsData0 = () =>{
     return [
@@ -23,7 +23,7 @@ const MyProjectsData0 = () =>{
         },
         {
             title: 'Help Students',
-            mainImg: tempImg1,
+            mainImg: helpStudents,
             url: '/my-projects/help-students',
             webstack : [
                 {
@@ -39,7 +39,7 @@ const MyProjectsData0 = () =>{
         },
         {
             title: 'Tech Forum',
-            mainImg: tempImg2,
+            mainImg: techForum,
             url: '/my-projects/tech-forum',
             webstack : [
                 {
@@ -55,7 +55,7 @@ const MyProjectsData0 = () =>{
         },
         {
             title: 'Virtual Assistant',
-            mainImg: tempImg3,
+            mainImg: virtualAssistant,
             url: '/my-projects/virtual-assistant',
             webstack : [
                 {
@@ -67,7 +67,7 @@ const MyProjectsData0 = () =>{
         },
         {
             title: 'AceCoding.io',
-            mainImg: tempImg4,
+            mainImg: aceCoding,
             url: '/my-projects/ace-coding-io',
             webstack : [
                 {

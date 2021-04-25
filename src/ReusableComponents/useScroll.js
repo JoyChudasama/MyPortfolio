@@ -3,6 +3,7 @@ import {useAnimation} from 'framer-motion';
 // Intersection Observer
 import {useInView} from 'react-intersection-observer';
 
+//Updates Scroll Pointers
 export const useScroll = () => {
     const controls = useAnimation();
     const [elements, view] = useInView({threshold : 0.3})
