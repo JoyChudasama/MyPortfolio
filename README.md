@@ -1,5 +1,4 @@
-# UNDER DEVELOPMENT
-
+# Currently, it is DESKTOP FRIENDLY only
 
 # Getting Started with Create React App
 
